@@ -1,0 +1,98 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+.container{
+	width:90%;
+	margin: 0 auto;
+}
+.row{
+	display: flex;
+	flex-wrap: wrap;
+}
+img{
+	width:100%;
+}
+.col{
+	width: 33.3%;
+	
+	
+}
+.col:hover{
+	box-shadow:0 0 5px gray;
+}
+.add{
+
+	padding: 10px;
+	border: none;
+	padding:5px;
+	text-align: center;
+}
+button{
+	padding: 3px;
+	font-size: 20px;
+	border: rgb(116, 123, 129);
+}
+input{
+	width:50px;
+	text-align: center;
+	font-size: 20px;
+	border: white;
+}
+.add:hover{
+opacity: 100%;
+}
+
+.col-card{
+	padding: 2rem;
+	
+}
+.rate{
+	display: flex;
+	justify-content: space-around;
+	padding: 10px;
+
+}
+
+.rotate{
+          height: 150px;
+          width: 150px;
+          background-color: skyblue;
+      }
+      .rotate:hover{
+          transform: rotateY(180deg);
+          transition: 1s;
+      }
+      .skewY{
+      
+          height: 150px;
+          width: 150px;
+          background-color: azure;
+      }
+      .skewY:hover{
+          transform: skew(200deg);
+          transition: 2s;
+      }
+      .scale{
+      
+      height: 150px;
+      width: 150px;
+      background-color: burlywood;
+      margin: 50px;
+  }
+  .scale:hover{
+      transform: scale(1.5);
+      transition: 1s;
+  }
+  .translate{
+      
+      height: 150px;
+      width: 150px;
+      background-color: greenyellow;
+      margin: 50px;
+  }
+  .translate:hover{
+      transform: translateY(-500px);
+      transition: 1s;
+  }
